@@ -1,0 +1,59 @@
+{
+    "name": "datinglibre/datinglibre-manual-subscription-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dating Libre Manual Suscription Bundle",
+            "email": "admin@datinglibre.com"
+        }
+    ],
+    "description": "DatingLibre Manual Subscription Bundle",
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "ext-simplexml": "*",
+        "datinglibre/datinglibre-app-api": "1.0.*",
+        "symfony/framework-bundle": "^5.0||^6.0",
+        "symfony/serializer": "^5.0||^6.0",
+        "symfony/http-client": "^5.0||^6.0",
+        "symfony/console": "^5.0||^6.0",
+        "symfony/dotenv": "^5.0||^6.0",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DatingLibre\\ManualSubscriptionBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DatingLibre\\ManualSubscriptionBundle\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.3",
+        "friendsofphp/php-cs-fixer": "^2.16",
+        "symfony/phpunit-bridge": "^5.3",
+        "symplify/config-transformer": "^9.4",
+        "vimeo/psalm": "^4.15"
+    },
+    "scripts": {
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+        }
+    },
+    "config": {
+        "preferred-install": {
+            "*": "dist"
+        },
+        "platform": {
+            "php": "8.1"
+        },
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
+        }
+    }
+}
