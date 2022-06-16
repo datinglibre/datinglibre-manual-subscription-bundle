@@ -4,19 +4,19 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "db7e8fd2e31d08a39a1e13470c348548",
+    "content-hash": "a95f5a9479954f1e86ac1684e7e5ce18",
     "packages": [
         {
             "name": "datinglibre/datinglibre-app-api",
             "version": "v1.0.0",
             "source": {
                 "type": "git",
-                "url": "https://gitlab.com/datinglibre/datinglibre-app-api.git",
+                "url": "https://github.com/datinglibre/datinglibre-app-api.git",
                 "reference": "13992bf0ea8d793d1ac76d3fa9a2c331a3c52913"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://gitlab.com/api/v4/projects/datinglibre%2Fdatinglibre-app-api/repository/archive.zip?sha=13992bf0ea8d793d1ac76d3fa9a2c331a3c52913",
+                "url": "https://api.github.com/repos/datinglibre/datinglibre-app-api/zipball/13992bf0ea8d793d1ac76d3fa9a2c331a3c52913",
                 "reference": "13992bf0ea8d793d1ac76d3fa9a2c331a3c52913",
                 "shasum": ""
             },
@@ -43,8 +43,8 @@
             ],
             "description": "DatingLibre App API",
             "support": {
-                "issues": "https://gitlab.com/datinglibre/datinglibre-app-api/-/issues",
-                "source": "https://gitlab.com/datinglibre/datinglibre-app-api/-/tree/v1.0.0"
+                "issues": "https://github.com/datinglibre/datinglibre-app-api/issues",
+                "source": "https://github.com/datinglibre/datinglibre-app-api/tree/v1.0.0"
             },
             "time": "2022-05-08T13:10:45+00:00"
         },
